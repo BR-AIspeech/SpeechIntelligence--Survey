@@ -1,0 +1,83 @@
+{
+  "name": "FFC-Bench Doubao-informed microset",
+  "version": "0.3",
+  "semantic_templates": 32,
+  "families": [
+    "acoustic_interference",
+    "bystander_addressee",
+    "environment_context",
+    "explicit_interruption",
+    "hesitation_repair",
+    "multi_speaker_overlap",
+    "rapid_endpoint"
+  ],
+  "templates_per_family": {
+    "acoustic_interference": 4,
+    "bystander_addressee": 8,
+    "environment_context": 4,
+    "explicit_interruption": 4,
+    "hesitation_repair": 4,
+    "multi_speaker_overlap": 4,
+    "rapid_endpoint": 4
+  },
+  "acoustic_conditions": [
+    "clean",
+    "moderate",
+    "hard"
+  ],
+  "episodes": 96,
+  "catalog": "doubao_microset_catalog.csv",
+  "audio_status": "recipe_only; audio is generated locally and is not included in the Overleaf source package",
+  "source": {
+    "title": "Seed Full-Duplex Speech LLM Released: Attentive Listening, Robust Interference Suppression, and More Natural Interaction",
+    "publisher": "ByteDance Seed",
+    "published": "2026-04-09",
+    "url": "https://mp.weixin.qq.com/s/ymyF-nBO-VT7ehnGO255qg",
+    "use": "scenario motifs and evaluation dimensions only; vendor-reported improvements are not labels or benchmark scores"
+  },
+  "scope": "small causal demonstration set, not a representative population benchmark",
+  "target_status": "designer_specified_reference; not independently human-validated gold",
+  "condition_parameters": [
+    {
+      "id": "clean",
+      "snr_db": null,
+      "overlap_ratio": 0.0,
+      "noise_class": "none",
+      "echo_db": null,
+      "render_seed": 11
+    },
+    {
+      "id": "moderate",
+      "snr_db": 12,
+      "overlap_ratio": 0.15,
+      "noise_class": "room_or_road",
+      "echo_db": -18,
+      "render_seed": 23
+    },
+    {
+      "id": "hard",
+      "snr_db": 6,
+      "overlap_ratio": 0.35,
+      "noise_class": "navigation_or_cafe",
+      "echo_db": -10,
+      "render_seed": 47
+    }
+  ],
+  "strict_context_switch_pairs": [
+    "car_pair_2",
+    "delivery_pair_2",
+    "interrupt_pair_1",
+    "rapid_pair_1"
+  ],
+  "action_counts": {
+    "act": 18,
+    "ask": 3,
+    "clarify": 3,
+    "continue": 18,
+    "ignore": 18,
+    "join": 3,
+    "speak": 15,
+    "stop": 9,
+    "wait": 9
+  }
+}

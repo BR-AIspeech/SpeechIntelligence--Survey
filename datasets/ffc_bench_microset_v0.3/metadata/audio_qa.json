@@ -1,0 +1,46 @@
+{
+  "files_checked": 96,
+  "all_expected_format": true,
+  "zero_length_files": [],
+  "silent_files": [],
+  "files_with_clipping_samples": [],
+  "intentional_context_switch_duplicate_groups": [
+    {
+      "pair_id": "delivery_pair_2",
+      "condition": "clean",
+      "context_variable": "permission",
+      "files": [
+        "audio/mixed/dbm_delivery_confirm_clean.wav",
+        "audio/mixed/dbm_delivery_overlap_clean.wav"
+      ],
+      "reason": "lexically and acoustically matched context-switch branches"
+    },
+    {
+      "pair_id": "interrupt_pair_1",
+      "condition": "clean",
+      "context_variable": "addressee",
+      "files": [
+        "audio/mixed/dbm_genuine_stop_clean.wav",
+        "audio/mixed/dbm_note_stop_clean.wav"
+      ],
+      "reason": "lexically and acoustically matched context-switch branches"
+    },
+    {
+      "pair_id": "rapid_pair_1",
+      "condition": "clean",
+      "context_variable": "addressee",
+      "files": [
+        "audio/mixed/dbm_poetry_turn_clean.wav",
+        "audio/mixed/dbm_rapid_question_clean.wav"
+      ],
+      "reason": "lexically and acoustically matched context-switch branches"
+    }
+  ],
+  "unexpected_byte_identical_audio_groups": [],
+  "minimum_peak_dbfs": -7.2632,
+  "maximum_peak_dbfs": -1.1103,
+  "minimum_rms_dbfs": -26.879,
+  "maximum_rms_dbfs": -20.1388,
+  "signal_qa_pass": true,
+  "note": "Signal-level checks do not replace human listening QA for intelligibility, timing, or role correctness."
+}

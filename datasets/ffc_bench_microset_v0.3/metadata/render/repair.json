@@ -1,0 +1,17 @@
+﻿{
+    "base_case_id":  "repair",
+    "prefix_wav":  "stems/repair_prefix.wav",
+    "event_wav":  "stems/repair_user_event.wav",
+    "event_kind":  "user_event",
+    "secondary_event_wav":  null,
+    "secondary_speaker":  "",
+    "playback_wav":  null,
+    "voices":  {
+                   "user":  "Microsoft Huihui Desktop",
+                   "system":  "Microsoft Huihui Desktop",
+                   "bystander":  "Microsoft Huihui Desktop"
+               },
+    "renderer":  "Windows System.Speech.Synthesis.SpeechSynthesizer",
+    "sample_rate_hz":  "renderer_default; normalized by mix_doubao_microset.py",
+    "source_type":  "local_tts_recipe"
+}

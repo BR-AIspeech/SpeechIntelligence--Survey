@@ -1,0 +1,51 @@
+{
+  "snapshot_date": "2026-11-13",
+  "repository": "https://github.com/BR-AIspeech/SpeechIntelligence--Survey",
+  "source_archive": "ffc_bench_doubao_microset_v0.3_public_release_candidate_20261112.zip",
+  "source_archive_sha256": "efc4a3a4a6a5c0b429773558e2e5ea5fbb3035232f84cb5fa3d8054742915478",
+  "release_authorization": "Repository owner requested publication and confirmed redistribution of all 96 WAV files on 2026-11-13.",
+  "independent_legal_verification_performed": false,
+  "blanket_reuse_license_selected": false,
+  "raw_data_and_audio_preserved_byte_for_byte": true,
+  "current_paper_reports_results_on_this_microset": false,
+  "implementation_and_latex_source_included": false,
+  "summary": {
+    "archive_checksum_entries_verified": 154,
+    "audio_files": 96,
+    "semantic_templates": 32,
+    "conditions": {
+      "clean": 32,
+      "hard": 32,
+      "moderate": 32
+    },
+    "families": {
+      "acoustic_interference": 12,
+      "bystander_addressee": 24,
+      "environment_context": 12,
+      "explicit_interruption": 12,
+      "hesitation_repair": 12,
+      "multi_speaker_overlap": 12,
+      "rapid_endpoint": 12
+    },
+    "total_duration_seconds": 483.276,
+    "minimum_duration_seconds": 3.948,
+    "maximum_duration_seconds": 6.158,
+    "format": "PCM WAV, mono, 16000 Hz, 16-bit",
+    "audio_sha256_matches_original_inventory": true,
+    "silent_files": 0,
+    "files_with_clipping_samples": 0,
+    "human_listening_validation_performed": false,
+    "independent_reference_label_validation_performed": false,
+    "model_benchmark_evaluation_performed": false
+  },
+  "historical_candidate_status_record": "original_candidate_release_summary.json",
+  "excluded_implementation_files": [
+    "scripts/qa_audio.py",
+    "scripts/score_system_traces.py",
+    "scripts/generate_doubao_microset.py",
+    "scripts/synthesize_doubao_microset.ps1",
+    "scripts/build_file_inventory.py",
+    "scripts/validate_doubao_microset.py",
+    "scripts/mix_doubao_microset.py"
+  ]
+}

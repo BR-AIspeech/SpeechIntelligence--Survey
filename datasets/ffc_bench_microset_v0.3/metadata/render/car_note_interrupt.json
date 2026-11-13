@@ -1,0 +1,17 @@
+﻿{
+    "base_case_id":  "car_note_interrupt",
+    "prefix_wav":  "stems/car_note_interrupt_prefix.wav",
+    "event_wav":  "stems/car_note_interrupt_user_event.wav",
+    "event_kind":  "user_event",
+    "secondary_event_wav":  null,
+    "secondary_speaker":  "",
+    "playback_wav":  "stems/car_note_interrupt_playback.wav",
+    "voices":  {
+                   "user":  "Microsoft Huihui Desktop",
+                   "system":  "Microsoft Huihui Desktop",
+                   "bystander":  "Microsoft Huihui Desktop"
+               },
+    "renderer":  "Windows System.Speech.Synthesis.SpeechSynthesizer",
+    "sample_rate_hz":  "renderer_default; normalized by mix_doubao_microset.py",
+    "source_type":  "local_tts_recipe"
+}

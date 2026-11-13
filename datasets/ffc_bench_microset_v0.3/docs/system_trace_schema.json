@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FFC-Bench normalized observable system trace",
+  "type": "object",
+  "required": ["system", "run_id", "case_id", "execution_mode", "status"],
+  "properties": {
+    "system": {"type": "string", "minLength": 1},
+    "run_id": {"type": "string", "minLength": 1},
+    "case_id": {"type": "string", "minLength": 1},
+    "execution_mode": {
+      "enum": ["causal_replay", "runtime_streaming", "full_context_batch"]
+    },
+    "status": {"enum": ["ok", "timeout", "error", "unsupported"]},
+    "action": {
+      "enum": ["listen", "wait", "speak", "stop", "ignore", "continue", "join", "ask", "clarify", "act", null]
+    },
+    "gate": {"enum": ["observe", "engage", null]},
+    "action_time_ms": {"type": ["number", "null"], "minimum": 0},
+    "response_onset_ms": {"type": ["number", "null"], "minimum": 0},
+    "stop_time_ms": {"type": ["number", "null"], "minimum": 0},
+    "pre_t0_diverged": {"type": ["boolean", "null"]},
+    "error": {"type": ["string", "null"]},
+    "model_version": {"type": ["string", "null"]},
+    "adapter_revision": {"type": ["string", "null"]},
+    "access_date": {"type": ["string", "null"], "format": "date"},
+    "region": {"type": ["string", "null"]},
+    "cost": {"type": ["number", "null"], "minimum": 0}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"status": {"const": "ok"}}},
+      "then": {"required": ["action"]}
+    }
+  ],
+  "additionalProperties": true
+}

@@ -1,0 +1,37 @@
+{
+  "release_name": "FFC-Bench Doubao-Informed Controlled Microset",
+  "version": "0.3-public-release-candidate",
+  "release_status": "blocked_pending_audio_redistribution_and_organizational_approval",
+  "audio_files": 96,
+  "semantic_templates": 32,
+  "conditions": {
+    "clean": 32,
+    "hard": 32,
+    "moderate": 32
+  },
+  "families": {
+    "acoustic_interference": 12,
+    "bystander_addressee": 24,
+    "environment_context": 12,
+    "explicit_interruption": 12,
+    "hesitation_repair": 12,
+    "multi_speaker_overlap": 12,
+    "rapid_endpoint": 12
+  },
+  "total_duration_seconds": 483.276,
+  "minimum_duration_seconds": 3.948,
+  "maximum_duration_seconds": 6.158,
+  "total_audio_bytes": 15469056,
+  "audio_formats": [
+    {
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "sample_width_bits": 16,
+      "codec": "NONE",
+      "files": 96
+    }
+  ],
+  "renderer": "Windows System.Speech.Synthesis.SpeechSynthesizer",
+  "voice": "Microsoft Huihui Desktop",
+  "human_recordings": false
+}

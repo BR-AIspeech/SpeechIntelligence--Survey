@@ -1,0 +1,17 @@
+﻿{
+    "base_case_id":  "multi_target",
+    "prefix_wav":  "stems/multi_target_prefix.wav",
+    "event_wav":  "stems/multi_target_user_event.wav",
+    "event_kind":  "user_event",
+    "secondary_event_wav":  "stems/multi_target_secondary_event.wav",
+    "secondary_speaker":  "bystander",
+    "playback_wav":  null,
+    "voices":  {
+                   "user":  "Microsoft Huihui Desktop",
+                   "system":  "Microsoft Huihui Desktop",
+                   "bystander":  "Microsoft Huihui Desktop"
+               },
+    "renderer":  "Windows System.Speech.Synthesis.SpeechSynthesizer",
+    "sample_rate_hz":  "renderer_default; normalized by mix_doubao_microset.py",
+    "source_type":  "local_tts_recipe"
+}

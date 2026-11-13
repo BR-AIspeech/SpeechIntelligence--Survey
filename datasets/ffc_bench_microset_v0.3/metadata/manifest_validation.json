@@ -1,0 +1,79 @@
+{
+  "cases": 96,
+  "semantic_templates": 32,
+  "families": {
+    "acoustic_interference": 12,
+    "bystander_addressee": 24,
+    "environment_context": 12,
+    "explicit_interruption": 12,
+    "hesitation_repair": 12,
+    "multi_speaker_overlap": 12,
+    "rapid_endpoint": 12
+  },
+  "conditions": {
+    "clean": 32,
+    "hard": 32,
+    "moderate": 32
+  },
+  "pairs": 16,
+  "strict_context_switch_pairs": 4,
+  "context_switch_contracts": [
+    {
+      "pair_id": "car_pair_2",
+      "context_variable": "agent_playback",
+      "branches": [
+        "car_noise_request",
+        "car_note_interrupt"
+      ],
+      "differing_fields": [
+        "agent_playback"
+      ]
+    },
+    {
+      "pair_id": "delivery_pair_2",
+      "context_variable": "permission",
+      "branches": [
+        "delivery_confirm",
+        "delivery_overlap"
+      ],
+      "differing_fields": [
+        "permission"
+      ]
+    },
+    {
+      "pair_id": "interrupt_pair_1",
+      "context_variable": "addressee",
+      "branches": [
+        "genuine_stop",
+        "note_stop"
+      ],
+      "differing_fields": [
+        "addressee"
+      ]
+    },
+    {
+      "pair_id": "rapid_pair_1",
+      "context_variable": "addressee",
+      "branches": [
+        "poetry_turn",
+        "rapid_question"
+      ],
+      "differing_fields": [
+        "addressee"
+      ]
+    }
+  ],
+  "incomplete_pairs": [],
+  "templates_per_family": {
+    "acoustic_interference": 4,
+    "bystander_addressee": 8,
+    "environment_context": 4,
+    "explicit_interruption": 4,
+    "hesitation_repair": 4,
+    "multi_speaker_overlap": 4,
+    "rapid_endpoint": 4
+  },
+  "warnings": [],
+  "errors": [],
+  "valid": true
+}

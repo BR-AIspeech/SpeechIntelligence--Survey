@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "Please cite the survey when using these materials. Cite the dataset separately when using its scenarios or audio."
+type: dataset
+title: "Speech Intelligence Survey Materials"
+authors:
+  - family-names: Xie
+    given-names: Chuandong
+  - family-names: Jiang
+    given-names: Mingling
+  - family-names: Shen
+    given-names: Huan
+  - family-names: Huang
+    given-names: Shangkun
+  - family-names: Hu
+    given-names: Junchao
+  - family-names: Ge
+    given-names: PengHua
+  - family-names: Zou
+    given-names: Wei
+  - family-names: Chen
+    given-names: Yunzhang
+date-released: 2026-11-13
+url: "https://github.com/BR-AIspeech/SpeechIntelligence--Survey"
+preferred-citation:
+  type: article
+  title: "Toward Speech Intelligence Centered on Interaction Decisions: A Survey of Full-Duplex Speech Systems"
+  authors:
+    - family-names: Xie
+      given-names: Chuandong
+    - family-names: Jiang
+      given-names: Mingling
+    - family-names: Shen
+      given-names: Huan
+    - family-names: Huang
+      given-names: Shangkun
+    - family-names: Hu
+      given-names: Junchao
+    - family-names: Ge
+      given-names: PengHua
+    - family-names: Zou
+      given-names: Wei
+    - family-names: Chen
+      given-names: Yunzhang
+  year: 2026
+  url: "https://github.com/BR-AIspeech/SpeechIntelligence--Survey"
+abstract: "Full-duplex speech systems are expanding from continuous listening and speaking to conversational coordination, reasoning about participation relationships, proactive intervention, and task continuation across sessions. Research spans different model architectures, interaction settings, and evaluation protocols, motivating a framework that connects interaction capabilities, implementation mechanisms, and evaluation resources. We conduct a focused narrative review and introduce Interaction Policy Levels (IPL). IPL organizes this development into fixed-turn interaction, reactive duplex interaction, collaborative interaction, relation-aware interaction, context-driven proactive interaction, and speech intelligence. We use Interaction Policy Dimensions (IPD) to compare specific behaviors along six dimensions: timing and endpointing, speech overlap and interruption, addressee, proactivity, tasks and permissions, and privacy and persistence. Using IPL and IPD, we map existing benchmarks and specialized evaluations to the system types and behaviors they cover. Drawing on the review, we propose an architecture for IPL5 speech intelligence that coordinates perception, understanding, control, action, and expression. We discuss research directions in evaluation frameworks, annotated test sets, capability expansion, and enterprise applications."

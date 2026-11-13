@@ -1,0 +1,13 @@
+{
+  "episodes": 96,
+  "sample_rate_hz": 16000,
+  "audio_files": 96,
+  "secondary_speaker_episodes": 9,
+  "conditions": {
+    "clean": 32,
+    "hard": 32,
+    "moderate": 32
+  },
+  "renderer": "Windows SAPI stems + numpy/soundfile deterministic mixer",
+  "note": "Generated audio is a synthetic controlled set, not human interaction data or a vendor recording."
+}

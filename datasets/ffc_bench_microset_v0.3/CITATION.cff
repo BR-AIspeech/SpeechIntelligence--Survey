@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this controlled microset, cite the dataset and the associated manuscript."
+type: dataset
+title: "FFC-Bench Doubao-Informed Controlled Microset"
+version: "0.3"
+authors:
+  - family-names: Xie
+    given-names: Chuandong
+  - family-names: Shen
+    given-names: Huan
+  - family-names: Huang
+    given-names: Shangkun
+  - family-names: Hu
+    given-names: Junchao
+  - family-names: Zou
+    given-names: Wei
+  - family-names: Chen
+    given-names: Yunzhang
+url: "https://github.com/BR-AIspeech/SpeechIntelligence--Survey/tree/main/datasets/ffc_bench_microset_v0.3"
+preferred-citation:
+  type: article
+  title: "Toward Speech Intelligence Centered on Interaction Decisions: A Survey of Full-Duplex Speech Systems"
+  authors:
+    - family-names: Xie
+      given-names: Chuandong
+    - family-names: Jiang
+      given-names: Mingling
+    - family-names: Shen
+      given-names: Huan
+    - family-names: Huang
+      given-names: Shangkun
+    - family-names: Hu
+      given-names: Junchao
+    - family-names: Ge
+      given-names: PengHua
+    - family-names: Zou
+      given-names: Wei
+    - family-names: Chen
+      given-names: Yunzhang
+  year: 2026
+  url: "https://github.com/BR-AIspeech/SpeechIntelligence--Survey"
